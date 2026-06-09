@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Futuro Sustentável - Equilíbrio no Campo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f7f0;
+            color: #333;
+        }
+        header {
+            background-color: #1b5e20;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #81c784;
+        }
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { margin: 10px 0 0 0; font-size: 1.2em; opacity: 0.9; }
+        
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2e7d32;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        nav a:hover { background: #1b5e20; border-radius: 4px; }
+
+        h2 {
+            color: #1b5e20;
+            border-bottom: 3px solid #a5d6a7;
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        h3 { color: #2e7d32; }
+
+        .flex-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 40px;
+            background: #fbfbfb;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        @media(min-width: 768px) {
+            .flex-section { flex-direction: row; }
+            .flex-info { flex: 1; padding: 25px; }
+            .flex-img { width: 450px; object-fit: cover; }
+        }
+        .flex-img { width: 100%; max-height: 300px; object-fit: cover; }
+        .flex-info { padding: 20px; }
+
+        .alerta-box {
+            background-color: #ffebee;
+            border-left: 6px solid #c62828;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+        .alerta-box h3 { color: #c62828; margin-top: 0; }
+
+        .faep-box {
+            background-color: #e8f5e9;
+            border: 2px solid #2e7d32;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        .faep-box h3 { color: #1b5e20; margin-top: 0; font-size: 1.5em; }
+
+        .mascote-dica {
+            background-color: #fff8e1;
+            border-left: 6px solid #ffb300;
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            border-radius: 6px;
+            font-style: italic;
+        }
+        .mascote-avatar { font-size: 45px; margin-right: 20px; }
+
+        .interativo-container {
+            background: #e3f2fd;
+            border: 2px dashed #1e88e5;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .btn-jogo {
+            background: #1e88e5;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1em;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .btn-jogo:hover { background: #1565c0; }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #1b5e20;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agro Futuro Sustentável</h1>
+        <p>O equilíbrio perfeito entre a produção de alimentos e o respeito ao meio ambiente</p>
+    </header>
+
+    <div class="container">
+        
+        <nav>
+            <a href="#defensivos">Defensivos Agrícolas</a>
+            <a href="#pecuaria">Pecuária Sustentável</a>
+            <a href="#faep">O Papel da FAEP</a>
+            <a href="#jogos">Espaço Interativo</a>
+        </nav>
+
+        <section id="defensivos">
+            <h2>🛡️ Defensivos Agrícolas: Tecnologia e Responsabilidade</h2>
+            <p>Os defensivos agrícolas (popularmente conhecidos como agrotóxicos) funcionam como remédios para as plantas, protegendo as lavouras contra pragas e doenças que destroem os alimentos. Porém, o grande segredo para o equilíbrio ecológico está no uso correto e controlado.</p>
+            
+            <div class="flex-section">
+                <img class="flex-img" src="https://images.unsplash.com/photo-1594142461622-0941ca4fa274?auto=format&fit=crop&w=600&q=80" alt="Trator moderno aplicando tecnologia no campo">
+                <div class="flex-info">
+                    <h3>Tecnologia de Aplicação e MIP</h3>
+                    <p>Hoje, os tratores usam computadores de bordo e GPS para aplicar a quantidade exata de produto necessária, sem desperdícios. Isso faz parte do <strong>Manejo Integrado de Pragas (MIP)</strong>, uma técnica que prioriza defesas naturais e biológicas antes de usar os produtos químicos.</p>
+                </div>
+            </div>
+
+            <div class="alerta-box">
+                <h3>⚠️ Riscos do Uso Incorreto (O que pode prejudicar?)</h3>
+                <ul>
+                    <li><strong>Contaminação Ambiental:</strong> O excesso ou aplicação em dias de vento forte (deriva) pode levar o produto para rios, lagos e contaminar o solo.</li>
+                    <li><strong>Ameaça aos Polinizadores:</strong> A aplicação errada afeta insetos benéficos, especialmente as abelhas, fundamentais para a biodiversidade.</li>
+                    <li><strong>Saúde Humana:</strong> Sem os Equipamentos de Proteção Individual (EPI), o trabalhador rural corre graves riscos de intoxicação.</li>
+                </ul>
+            </div>
+
+            <div class="mascote-dica">
+                <div class="mascote-avatar">👨‍🌾</div>
+                <div>
+                    <strong>Agrito diz:</strong> "Para evitar esses danos, o produtor precisa do Receituário Agronômico! Nenhum produto é jogado na plantação sem o estudo de um engenheiro responsável."
+                </div>
+            </div>
+        </section>
+
+        <section id="pecuaria">
+            <h2>🐄 Pecuária Sustentável: Respeito aos Animais</h2>
+            <p>O campo paranaense cuida dos animais aliando alta produtividade com a conservação da natureza. Conheça as principais criações:</p>
+
+            <div class="flex-section">
+                <img class="flex-img" src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=600&q=80" alt="Gado de corte no pasto">
+                <div class="flex-info">
+                    <h3>🥩 Gado de Corte e Pastagem Rotacionada</h3>
+                    <p>Através da rotação de pastagens, o gado muda de área periodicamente, permitindo que o solo se recupere. Isso evita a erosão e ajuda a fixar o carbono na terra, combatendo o efeito estufa.</p>
+                </div>
+            </div>
+
+            <div class="flex-section">
+                <img class="flex-img" src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=600&q=80" alt="Vaca leiteira">
+                <div class="flex-info">
+                    <h3>🥛 Vaca Leiteira e Economia Circular</h3>
+                    <p>Vacas criadas com conforto térmico produzem mais leite e sofrem menos estresse. Além disso, os resíduos (esterco) passam por compostagem e se transformam em <strong>biofertilizantes</strong> ricos para a lavoura, eliminando resíduos químicos.</p>
+                </div>
+            </div>
+
+            <div class="flex-section">
+                <img class="flex-img" src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80" alt="Cavalo na fazenda">
+                <div class="flex-info">
+                    <h3>🐴 O Cavalo e o Manejo Racional</h3>
+                    <p>O cavalo é o braço direito do peão no campo. Com as técnicas modernas de <strong>Doma Gentil</strong> ensinadas no Paraná, os cavalos são criados sem violência, garantindo o bem-estar animal e segurança no manejo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faep">
+            <div class="faep-box">
+                <h3>🏛️ Sistema FAEP/SENAR-PR: Transformando o Campo</h3>
+                <p>A <strong>FAEP (Federação da Agricultura do Estado do Paraná)</strong> é a grande força do produtor rural. Juntamente com o SENAR, ela leva conhecimento gratuito para milhares de famílias.</p>
+                <p>É a FAEP que treina o operador do trator a regular a máquina para não poluir, que ensina o peão a cuidar com carinho dos cavalos e que mostra ao produtor de leite como proteger as nascentes de água da sua propriedade. O Paraná é referência em sustentabilidade graças a esse trabalho!</p>
+            </div>
+        </section>
+
+        <section id="jogos">
+            <h2>🎮 Espaço Interativo: Teste seus Conhecimentos</h2>
+            <p>Aprender sobre o campo também pode ser muito divertido! Use os recursos abaixo:</p>
+
+            <div class="interativo-container">
+                <h3>🧠 Quiz Oficial no Quizizz</h3>
+                <p>Preparamos um desafio especial na plataforma Quizizz para testar tudo o que você leu nesta página sobre sustentabilidade, agrotrópicos e animais!</p>
+                <a href="#" target="_blank" class="btn-jogo">Clique aqui para Jogar no Quizizz</a>
+            </div>
+            
+            <div class="mascote-dica">
+                <div class="mascote-avatar">🤠</div>
+                <div>
+                    <strong>Agrito diz:</strong> "O futuro do planeta depende do equilíbrio. Parabéns por estudar e apoiar o nosso agro sustentável!"
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Projeto Agrinho &copy; 2026 - Site Agro Futuro Sustentável</p>
+    </footer>
+
+</body>
+</html>
